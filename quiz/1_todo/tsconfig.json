@@ -1,8 +1,11 @@
 {
+  // typescript 에서 javascript 로 변환할 때, 설정하는 세부사항 정보
   "compilerOptions": {
     "allowJs": true,
     "checkJs": true,
-    "noImplicitAny": false
+
+    // true -> index.ts 에서 오류 발생하게 됨 ( typescript > javascript 로 변환 시 타이핑이 안되어 있을 때 오류 발생)
+    "noImplicitAny": true     
   },
   "include": ["./src/**/*"]
 }
