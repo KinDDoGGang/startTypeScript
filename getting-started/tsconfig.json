@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        // js 파일 허용여부
+        "allowJs": true
+        // ts-check 사용여부
+        , "checkJs": true
+        // 최소한의 타입이라도 넣어야함 null 허용X
+        , "noImplicitAny": true
+    }
+}
